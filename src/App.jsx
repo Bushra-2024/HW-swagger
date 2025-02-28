@@ -177,7 +177,7 @@ const [openID, setOpenID] = useState(false);
   };
   
   return (
-    <div className="dark:bg-black h-[900px] bg-white">
+    <div className="dark:bg-black bg-white">
       <h1 className="font-bold text-[33px] text-center py-5 text-green-950 dark:text-white">
         HomeWork
       </h1>
@@ -194,7 +194,7 @@ const [openID, setOpenID] = useState(false);
         {data.map((el) => (
           <Card
             key={el.id}
-            className="w-[300px] rounded-md h-auto flex flex-col gap-5 p-5 border-1 border-green-800"
+            className="w-[300px] flex flex-col gap-5 p-5 border-1 border-green-800"
 >
     <div className="flex gap-3">
   {el.images.map((e) => (
